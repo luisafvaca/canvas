@@ -17,10 +17,10 @@ var canvas = document.querySelector('.my_canvas').getContext("2d"),
       canvas.closePath();
   }, 1000);
 
-// function randomColor(colors){
-//   colors.map(function(color){
-//     return color;
-//   });
-// }
+function randomColor(colors){
+  colors.map(function(color){
+    return color;
+  });
+}
 
 console.log(canvas);
